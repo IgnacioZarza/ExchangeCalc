@@ -1,0 +1,101 @@
+﻿/*.introjs-overlay {
+    background-color: rgba(0,0,0,0.45) !important;
+}
+
+.customIntro .introjs-tooltip {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e6e8eb !important;
+    color: #343a40 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08) !important;
+    max-width: 380px !important;
+}
+
+    .customIntro .introjs-tooltip .introjs-tooltiptext {
+        font-size: 0.95rem;
+        color: #495057 !important;
+    }
+
+.customIntro .introjs-nextbutton, .customIntro .introjs-donebutton {
+    background-color: #6c757d !important;
+    color: white !important;
+    border: none !important;
+    padding: .35rem .7rem !important;
+    border-radius: .25rem !important;
+}
+
+.customIntro .introjs-prevbutton {
+    background-color: transparent !important;
+    color: #6c757d !important;
+    border: 1px solid #dee2e6 !important;
+    padding: .35rem .6rem !important;
+    border-radius: .25rem !important;
+}
+
+.customIntro .introjs-skipbutton {
+    font-size: .8rem !important;
+    padding: .25rem .5rem !important;
+    border-radius: .25rem !important;
+    background: transparent !important;
+    color: #6c757d !important;
+}
+
+.swal2-styled.btn-fixed-width {
+    min-width: 140px !important;
+    text-align: center !important;
+}
+*/
+
+/* Overlay semi-transparente */
+.introjs-overlay {
+    background-color: rgba(0,0,0,0.45) !important;
+    z-index: 99999 !important;
+}
+
+/* Tooltip personalizado */
+.customIntro .introjs-tooltip {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e6e8eb !important;
+    color: #343a40 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08) !important;
+    max-width: 380px !important;
+    width: 90vw !important; /* Responsivo en móviles */
+}
+
+    /* Texto del tooltip */
+    .customIntro .introjs-tooltip .introjs-tooltiptext {
+        font-size: 0.95rem;
+        color: #495057 !important;
+    }
+
+/* Botones */
+.customIntro .introjs-nextbutton,
+.customIntro .introjs-donebutton {
+    background-color: #6c757d !important;
+    color: white !important;
+    border: none !important;
+    padding: .35rem .7rem !important;
+    border-radius: .25rem !important;
+}
+
+.customIntro .introjs-prevbutton {
+    background-color: transparent !important;
+    color: #6c757d !important;
+    border: 1px solid #dee2e6 !important;
+    padding: .35rem .6rem !important;
+    border-radius: .25rem !important;
+}
+
+.customIntro .introjs-skipbutton {
+    font-size: .8rem !important;
+    padding: .25rem .5rem !important;
+    border-radius: .25rem !important;
+    background: transparent !important;
+    color: #6c757d !important;
+}
+
+.swal2-styled.btn-fixed-width {
+    min-width: 140px !important;
+    text-align: center !important;
+}
